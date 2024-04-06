@@ -1,0 +1,22 @@
+{
+  "name": "grammy-bot",
+  "version": "1.0.0",
+  "description": "grammy-bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grammyjs/hydrate": "^1.4.1",
+    "dotenv": "^16.4.5",
+    "grammy": "^1.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
